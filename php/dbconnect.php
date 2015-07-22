@@ -1,9 +1,9 @@
 <?php
     // data
-    $db_host = '192.168.12.27';
+    $db_host = '127.0.0.1';
     $db_name = 'test_results';
     $db_username = 'root';
-    $db_password = '111';
+    $db_password = 'ivanchik';
 
     // connect to server
     $connect_to_db = mysql_connect($db_host, $db_username, $db_password)
